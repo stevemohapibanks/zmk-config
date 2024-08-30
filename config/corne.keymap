@@ -14,6 +14,26 @@
 #define NUMBERS 3
 
 / {
+
+        behaviors {
+          thm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+          };
+          bhm: balanced_homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;    // <---[[moderate duration]]
+            quick-tap-ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
+        };
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -24,11 +44,12 @@
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  '  | /    |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 //   &mt LCTRL ESC  &ht_bl LSHFT A  &ht_bl LALT R   &ht_bl LGUI S   &kp T     &kp G   &kp M   &kp N     &ht_bl RGUI E &ht_bl RALT I   &ht_bl LSHFT O  &kp ENT
+//   &kp LCTRL &mt LSHIFT A &kp R   &mt LGUI S  &kp T     &kp G   &kp M &kp N   &mt RGUI E &kp I   &mt LSHIFT O  &kp SQT
                         bindings = <
-   &kp TAB        &kp Q           &kp W           &kp F           &kp P     &kp B   &kp J   &kp L     &kp U         &kp Y           &kp SEMI        &kp BSPC
-   &kp LCTRL &mt LSHIFT A &kp R   &mt LGUI S  &kp T     &kp G   &kp M &kp N   &mt RGUI E &kp I   &mt LSHIFT O  &kp SQT
-   &kp TILDE      &kp Z           &kp X           &kp C           &kp D     &kp V   &kp K   &kp H     &kp COMMA     &kp DOT         &kp SQT         &kp FSLH
-                                                  &mo 3           &kp SPACE &mo 1   &mo 2   &kp RET   &kp RALT
+   &kp TAB        &kp Q         &kp W         &kp F         &kp P     &kp B   &kp J   &kp L     &kp U         &kp Y         &kp SEMI      &kp BSPC
+   &mt LCTRL ESC  &bhm LSHFT A  &bhm LALT R   &bhm LGUI S   &kp T     &kp G   &kp M   &kp N     &bhm RGUI E   &bhm RALT I   &bhm RSHFT O  &kp ENT
+   &kp TILDE      &kp Z         &kp X         &kp C         &kp D     &kp V   &kp K   &kp H     &kp COMMA     &kp DOT       &kp SQT       &kp FSLH
+                                              &mo 3         &kp SPACE &mo 1   &mo 2   &kp RET   &kp RALT
                         >;
                 };
 
