@@ -24,10 +24,10 @@
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  '  | /    |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB        &kp Q           &kp W           &kp F           &kp P     &kp B   &kp J &kp L   &kp U         &kp Y           &kp SEMI        &kp BSPC
-   &mt LCTRL ESC  &ht_bl LSHFT A  &ht_bl LALT R   &ht_bl LGUI S   &kp T     &kp G   &kp M &kp N   &ht_bl RGUI E &ht_bl RALT I   &ht_bl LSHFT O  &kp ENT
-   &kp TILDE      &kp Z           &kp X           &kp C           &kp D     &kp V   &kp K &kp H   &kp COMMA     &kp DOT         &kp SQT         &kp FSLH
-                                                  &mo 3           &kp SPACE &mo 1   &mo 2 &kp RET &kp RALT
+   &kp TAB        &kp Q           &kp W           &kp F           &kp P     &kp B   &kp J   &kp L     &kp U         &kp Y           &kp SEMI        &kp BSPC
+   &mt LCTRL ESC  &ht_bl LSHFT A  &ht_bl LALT R   &ht_bl LGUI S   &kp T     &kp G   &kp M   &kp N     &ht_bl RGUI E &ht_bl RALT I   &ht_bl LSHFT O  &kp ENT
+   &kp TILDE      &kp Z           &kp X           &kp C           &kp D     &kp V   &kp K   &kp H     &kp COMMA     &kp DOT         &kp SQT         &kp FSLH
+                                                  &mo 3           &kp SPACE &mo 1   &mo 2   &kp RET   &kp RALT
                         >;
                 };
 
