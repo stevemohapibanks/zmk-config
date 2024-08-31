@@ -35,11 +35,11 @@
 // | CTRL |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  | ENT  |
 // | SHFT |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |  '  | /    |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-//   &mt LCTRL ESC  &ht_bl LSHFT A  &ht_bl LALT R   &ht_bl LGUI S   &kp T     &kp G   &kp M   &kp N     &ht_bl RGUI E &ht_bl RALT I   &ht_bl LSHFT O  &kp ENT
+//   &mt LCTRL ESC  &mt LSHFT A  &mt LALT R   &mt LGUI S   &kp T     &kp G   &kp M   &kp N     &mt RGUI E   &mt RALT I   &mt LSHFT O  &kp ENT
 //   &kp LCTRL &mt LSHIFT A &kp R   &mt LGUI S  &kp T     &kp G   &kp M &kp N   &mt RGUI E &kp I   &mt LSHIFT O  &kp SQT
                         bindings = <
    &kp TAB        &kp Q         &kp W         &kp F         &kp P     &kp B   &kp J   &kp L     &kp U         &kp Y         &kp SEMI      &kp BSPC
-   &mt LCTRL ESC  &mt LSHFT A  &mt LALT R   &mt LGUI S   &kp T     &kp G   &kp M   &kp N     &mt RGUI E   &mt RALT I   &mt LSHFT O  &kp ENT
+   &kp LCTRL &kp A &kp R   &kp S  &kp T     &kp G   &kp M &kp N   &kp E &kp I   &kp O  &kp SQT
    &kp TILDE      &kp Z         &kp X         &kp C         &kp D     &kp V   &kp K   &kp H     &kp COMMA     &kp DOT       &kp SQT       &kp FSLH
                                               &mo 3         &kp SPACE &mo 1   &mo 2   &kp RET   &kp RALT
                         >;
