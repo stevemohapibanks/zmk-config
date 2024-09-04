@@ -41,7 +41,7 @@
    &kp TAB        &kp Q         &kp W         &kp F         &kp P       &kp B     &kp J   &kp L        &kp U       &kp Y         &kp SEMI      &kp BSPC
    &mt LCTRL ESC  &bhm LSHFT A  &bhm LALT R   &bhm LGUI S   &kp T       &kp G     &kp M   &kp N        &bhm RGUI E &bhm RALT I   &bhm RSHFT O  &kp RET
    &kp TILDE      &kp Z         &kp X         &kp C         &kp D       &kp V     &kp K   &kp H        &kp COMMA   &kp DOT       &kp SQT       &kp FSLH
-                                              &mo NUMBERS   &mo SYMBOLS &kp SPACE &kp RET &lt NAV TAB  &caps_word
+                                              &caps_word    &mo SYMBOLS &kp SPACE &kp RET &lt NAV TAB  &mo NUMBERS
                         >;
                 };
 
@@ -53,8 +53,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans     &trans   &trans   &trans    &trans    &trans      &trans      &trans    &trans      &kp LBKT  &kp RBKT  &trans
-   &trans     &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET   &kp AMPS  &kp ASTRK   &kp LPAR  &kp RPAR  &trans
-   &trans     &trans   &trans   &trans    &trans    &trans      &kp UNDER   &kp MINUS &kp PLUS    &kp LBRC  &kp RBRC  &kp BSLH
+   &kp PIPE   &kp EXCL &kp AT   &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET   &kp AMPS  &kp ASTRK   &kp LPAR  &kp RPAR  &kp GRAVE
+   &kp TILDE  &trans   &trans   &trans    &trans    &trans      &kp UNDER   &kp MINUS &kp PLUS    &kp LBRC  &kp RBRC  &kp BSLH
                                 &trans    &trans    &trans      &trans      &trans    &trans
                         >;
                 };
@@ -66,7 +66,7 @@
 // | SHFT   |      |      |      |      |      |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                        | GUI  |      | SPC  |   | ENT |     | ALT |
                         bindings = <
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans    &trans    &kp UP      &trans      &trans  &trans
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bT BT_SEL 3 &bt BT_SEL 4    &trans    &trans    &kp UP      &trans      &trans  &trans
    &trans     &trans       &trans       &trans       &trans       &trans          &trans    &kp LEFT  &kp DOWN    &kp RIGHT   &trans  &trans
    &kp LSHFT  &trans       &trans       &trans       &trans       &trans          &trans    &trans    &trans      &trans      &trans  &trans
                                         &trans       &trans       &trans          &trans    &trans    &trans
