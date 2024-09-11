@@ -41,7 +41,7 @@
    &kp TAB        &kp Q         &kp W         &kp F         &kp P       &kp B             &kp J         &kp L        &kp U       &kp Y         &kp SEMI      &kp BSPC
    &mt LCTRL ESC  &bhm LSHFT A  &bhm LALT R   &bhm LGUI S   &kp T       &kp G             &kp M         &kp N        &bhm RGUI E &bhm RALT I   &bhm RSHFT O  &kp RET
    &kp TILDE      &kp Z         &kp X         &kp C         &kp D       &kp V             &kp K         &kp H        &kp COMMA   &kp DOT       &kp SQT       &kp FSLH
-                                              &caps_word    &mo SYMBOLS &lt NUMBERS SPACE &lt RSHFT RET &lt NAV TAB  &trans
+                                              &caps_word    &mo SYMBOLS &lt NUMBERS SPACE &mt RSHFT RET &lt NAV TAB  &trans
                         >;
                 };
 
