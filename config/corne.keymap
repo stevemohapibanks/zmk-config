@@ -38,10 +38,10 @@
 //   &mt LCTRL ESC  &mt LSHFT A  &mt LALT R   &mt LGUI S   &kp T     &kp G   &kp M   &kp N     &mt RGUI E   &mt RALT I   &mt LSHFT O  &kp ENT
 //   &kp LCTRL &mt LSHIFT A &kp R   &mt LGUI S  &kp T     &kp G   &kp M &kp N   &mt RGUI E &kp I   &mt LSHIFT O  &kp SQT
                         bindings = <
-   &kp TAB        &kp Q         &kp W         &kp F         &kp P       &kp B           &kp J           &kp L        &kp U       &kp Y         &kp SEMI      &kp BSPC
-   &mt LCTRL ESC  &bhm LSHFT A  &bhm LALT R   &bhm LGUI S   &kp T       &kp G           &kp M           &kp N        &bhm RGUI E &bhm RALT I   &bhm RSHFT O  &kp RET
-   &kp TILDE      &kp Z         &kp X         &kp C         &kp D       &kp V           &kp K           &kp H        &kp COMMA   &kp DOT       &kp SQT       &kp FSLH
-                                              &caps_word    &mo SYMBOLS &lt LSHFT SPACE &lt NUMBERS RET &lt NAV TAB  &mo NUMBERS
+   &kp TAB        &kp Q         &kp W         &kp F         &kp P       &kp B             &kp J         &kp L        &kp U       &kp Y         &kp SEMI      &kp BSPC
+   &mt LCTRL ESC  &bhm LSHFT A  &bhm LALT R   &bhm LGUI S   &kp T       &kp G             &kp M         &kp N        &bhm RGUI E &bhm RALT I   &bhm RSHFT O  &kp RET
+   &kp TILDE      &kp Z         &kp X         &kp C         &kp D       &kp V             &kp K         &kp H        &kp COMMA   &kp DOT       &kp SQT       &kp FSLH
+                                              &caps_word    &mo SYMBOLS &lt NUMBERS SPACE &lt RSHFT RET &lt NAV TAB  &trans
                         >;
                 };
 
