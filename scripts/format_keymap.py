@@ -70,7 +70,7 @@ def label(token):
             return "BTCLR"
         if parts[1] == "BT_SEL":
             return "BT" + parts[2]
-    if behavior in ("&mt", "&bhm"):
+    if behavior in ("&mt", "&bhm", "&hml", "&hmr"):
         mod, key = parts[1], parts[2]
         return f"{sym(key)}/{MOD_SHORT.get(mod, mod)}"
     if behavior == "&mo":
